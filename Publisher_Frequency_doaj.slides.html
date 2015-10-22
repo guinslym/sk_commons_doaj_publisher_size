@@ -223,11 +223,21 @@ div.output_prompt {
 <h1 id="DOAJ-Publisher-Frequencies">DOAJ Publisher Frequencies<a class="anchor-link" href="#DOAJ-Publisher-Frequencies">&#182;</a></h1><p>This document is a report showing how many journal has each <strong>publishers</strong> The CSV file were taken from the DOAJ website. One in 2014 and the other one in 2015. We will compare both file. To view the blog file that comes with this document please refer to our blog <a href="http://sustainingknowledgecommons.org/">SustainingKnowledgeCommons.org</a>
 |</p>
 <ul>
-<li>Supervisor: Heather Morrison</li>
-<li>Author: Guinlsy Mondésir</li>
+<li>Supervisor: <strong>Heather Morrison</strong></li>
+<li>Author: <strong>Guinlsy Mondésir</strong></li>
 <li>Date: 2015-09-22</li>
+<li>Project: <strong><a href="http://sustainingknowledgecommons.org/">SustainingKnowledgeCommons</a></strong></li>
 </ul>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr/>
 </div>
 </div>
 </div>
@@ -443,7 +453,7 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Verification-in-Ruby">Verification in Ruby<a class="anchor-link" href="#Verification-in-Ruby">&#182;</a></h3><p>the following cell are the equivalent in Ruby (2.1.0) for the 2015 doaj_metadata file. The difference number in some of the publisher frequency (i.e. MDPI) is because that 'smarter_csv' does trim whitespace and <strong>pandas</strong> not by default.</p>
+<h3 id="Verification-in-Ruby">Verification in Ruby<a class="anchor-link" href="#Verification-in-Ruby">&#182;</a></h3><p>the following cell are the equivalent in Ruby (2.1.0) for the 2015 doaj_metadata file. The different numbers in some of the publisher frequency (i.e. MDPI) is because that 'smarter_csv' does trim whitespace and <strong>pandas</strong> not by default.</p>
 
 </div>
 </div>
@@ -453,8 +463,10 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="gem-install-smarter_csv">gem install smarter_csv<a class="anchor-link" href="#gem-install-smarter_csv">&#182;</a></h4>
-<pre><code>require 'smarter_csv'
+
+<pre><code>#gem install smarter_csv
+#gem install pry
+require 'smarter_csv'
 require 'pry'
 
 
@@ -495,6 +507,15 @@ Pry::ColorPrinter.pp(last_twenty)
 
     =end</code></pre>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr/>
 </div>
 </div>
 </div>
@@ -707,6 +728,15 @@ Pry::ColorPrinter.pp(last_twenty)
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Ruby">Ruby<a class="anchor-link" href="#Ruby">&#182;</a></h2><p>I couldn't do the frequency for the 2014 because it has unicode errors</p>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr/>
 </div>
 </div>
 </div>
